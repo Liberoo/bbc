@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+---
+
+<Layout title="Welcome to Astro." >
+	<div class="flex justify-center items-center  w-full ">
+		<div class="grid grid-cols-2 gap-8 lg:grid-cols-3">
+		<Card href="./zapowiedz" title="Zapowiedź" svg="zapowiedz.svg" dark={true}/>
+		<Card href="./lineup" title="Lineup" svg="lineup.svg" dark={false}/>
+		<Card href="./wynik" title="Wynik Końcowy" svg="wynik.svg" dark={true}/>
+
+	</div>
+	</div>
+	</Layout>
+

@@ -1,0 +1,20 @@
+---
+interface Props {
+	title: string;
+	svg: string;
+	href: string;
+	dark:boolean;
+}
+
+const { href, title, svg, dark } = Astro.props;
+
+---
+
+<a href={href} class="text-white text-center font-bold">
+	<div class=`${dark?'bg-dark-grey':'bg-app-orange'} rounded-3xl p-4 flex justify-center w-36 h-36 `>
+		<img width="120" height="120" src={svg}>
+	</div>
+	<p class=" pt-2">
+{title}
+	</p>
+</a>

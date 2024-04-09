@@ -8,6 +8,9 @@ export default {
 				'light-grey': '#1C212D',
 				'app-orange': '#C3700E',
 				'airtable': 'hsl(0,0%,98%)'
+			},
+			boxShadow: {
+				main: '15px 15px 15px rgba(0, 0, 0, 0.2)',
 			}
 		},
 	},
